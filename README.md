@@ -7,6 +7,8 @@ To use Instant Archive:
  1. Select the "Share" icon in whatever application you're in
  2. When prompted with a share dialog, choose the Instant Archive app
 
+It is helpful to [pin Instant Archive to the Android Share menu](https://www.techrepublic.com/article/how-to-pin-apps-to-the-android-share-menu/), so it is always just one click away.
+
 # How it works
 The android app has one simple MainActivity. This activity responds to [ACTION_SEND intents](https://developer.android.com/training/sharing/receive), looks for URLs in the shared data, and sends those URLs to archive.today for archiving. 
 
